@@ -8,15 +8,15 @@ Este repositório é dedicado a mostrar as melhores práticas e exemplos para es
 Seja você um desenvolvedor experiente ou um iniciante, o objetivo deste guia é ajudar a entender a importância dos testes com alguns exercícios/exemplos de como implementá-los de forma eficaz em seus projetos.
 
 ## Índice
-•  Introdução
+* Introdução
 
-•  Primeiros passos
+* Primeiros passos
 
-•  Técnicas avançadas de teste
+* Técnicas avançadas de teste
 
-•  Melhores práticas
+* Melhores práticas
 
-•  Contribuindo
+* Contribuindo
 
 ## Introdução
 Testes são uma parte crucial do desenvolvimento de software. Eles garantem que seu código funcione como esperado e ajudam a prevenir bugs de chegarem à produção. Neste repositório, focamos no unittest, um módulo embutido no Python que fornece um framework robusto para escrever e executar testes.
@@ -28,9 +28,24 @@ Para começar a usar o unittest, você precisará ter o Python instalado em sua 
 python --version
 ```
 
-Se você não tiver o Python instalado em seu computador, pode baixá-lo no [site oficial]([https://www.python.org/downloads/]).
+Se você não tiver o Python instalado em seu computador, pode baixá-lo no **[site oficial](https://www.python.org/downloads/)**.
 
 Obs: A versão utilizada foi a 3.10, mas fique a vontade de utilizar a versão que mais se adequar e que preferir. Além disso, o framework unittest vem instalado juntamente com a linguagem Python
+
+### Criação do ambiente virtual para desenvolvimento (Windows)
+Durante este, foi-se criado um ambiente virtual, o que garante o desenvolvimento estável e consistente sem interferir em outros projetos ou no ambiente global. Para criá-lo e ativá-lo, execute os seguintes comandos:
+
+```
+python -m venv nome_ambiente
+venv\Scripts\Activate
+```
+
+Já no Linux:
+
+```
+python3 -m venv venv
+source venv/bin/activate
+```
 
 ## Técnicas avançadas de teste
 Uma vez que você esteja confortável com o básico, pode explorar técnicas mais avançadas, como:
