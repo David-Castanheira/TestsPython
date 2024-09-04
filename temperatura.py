@@ -6,7 +6,7 @@ def converte_fahrenheint(celsius):
     fahrenheint = 1.8 * celsius + 32
     return fahrenheint
 
-# Testes Celsius
+# Testes com estrutura de exceção para Celsius
 try:
     temperatura = converte_celsius(32)
     assert temperatura == 0
@@ -23,7 +23,7 @@ try:
 except AssertionError:
     print(f"Resultado incorreto. A temperatura é {temperatura}") 
 
-# Testes Fahrenheint
+# Testes com estrutura de exceção para Fahrenheint
 try:
     temperatura = converte_fahrenheint(0)
     assert temperatura == 32
