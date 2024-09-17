@@ -1,7 +1,9 @@
+# Função que converte temperatura em Celsius
 def converte_celsius(fahrenheint):
     celsius = (5.0/9.0) * (fahrenheint - 32)
     return celsius 
 
+# Função que converte temperatura em Fahreheint
 def converte_fahrenheint(celsius):
     fahrenheint = 1.8 * celsius + 32
     return fahrenheint

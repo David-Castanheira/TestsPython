@@ -1,6 +1,7 @@
 import pytest
 from controllers.peso import obter_peso
 
+# Testes com pytest
 def test_peso1():
     assert obter_peso(1.5, 'M') == pytest.approx(51.05, 0.01)
 

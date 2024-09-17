@@ -1,5 +1,6 @@
 import unittest
 
+# Função de soma simples entre dois valores
 def soma(a, b):
     return a + b
 

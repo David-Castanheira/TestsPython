@@ -47,6 +47,18 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
+## Pytest
+Para se utilizar o Pytest, como foi o caso dos arquivos triangulo.py, peso.py e calcular_dosagem.py, é necessário executar o comando abaixo:
+
+```
+pip install pytest
+```
+Após a estruturação dos testes (neste caso, localizados na raíz do projeto), execute o seguinte comando:
+
+```
+pytest nome_arquivo.py
+```
+
 ## Técnicas avançadas de teste
 Uma vez que você esteja confortável com o básico, pode explorar técnicas mais avançadas, como:
 

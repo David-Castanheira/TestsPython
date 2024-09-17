@@ -1,9 +1,12 @@
 import unittest 
 
+# Função de soma entre dois valores
 def soma(a, b):
+    # Verifica se as variáveis são do tipo int
     if type(a) == int and type(b) == int:
         return a + b
     else:
+        # Se não forem, retorna um typerror
         raise TypeError(f'Tipo incompatível')
 
 # Testes unitários
