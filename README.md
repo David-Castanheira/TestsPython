@@ -59,6 +59,8 @@ Após a estruturação dos testes (neste caso, localizados na raíz do projeto),
 pytest nome_arquivo.py
 ```
 
+O link que se encontra **[aqui](https://www.datacamp.com/pt/tutorial/pytest-tutorial-a-hands-on-guide-to-unit-testing)** explicita as vantagens de se utilizar o Pytest para tornar a aplicação mais confiável e segura, além da diferença em relação ao unittest
+
 ## Técnicas avançadas de teste
 Uma vez que você esteja confortável com o básico, pode explorar técnicas mais avançadas, como:
 
